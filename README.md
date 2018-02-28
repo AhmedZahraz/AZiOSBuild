@@ -1,2 +1,2 @@
 # AZiOSBuild
-Bash Script to sign iOS apps
+Bash script to sign iOS apps
