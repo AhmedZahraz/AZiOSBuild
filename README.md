@@ -16,7 +16,7 @@ How it works
 *  Run script: <br>
     *  without options <br>
     `./aziOSBuild.sh`<br>
-    *  with [options](https://github.com/AhmedZahraz/AZiOSBuild#options) <br>
+    *  with [options](#options) <br>
 `./aziOSBuild.sh -project /.../TestApp.xcodeproj -exportPath /.../FolderIPA -p12Path /.../CertificatsPrive.p12  -p12Password "test" -provisioningProfilePath /.../ProvisioningProfilesDistribution.mobileprovision -configuration release -scheme TestApp`
 
 Options
