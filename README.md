@@ -17,18 +17,19 @@ How it works
     *  without options <br>
     `./aziOSBuild.sh`<br>
     *  with [options](#options) <br>
-`./aziOSBuild.sh -project /.../TestApp.xcodeproj -exportPath /.../FolderIPA -p12Path /.../CertificatsPrive.p12  -p12Password "test" -provisioningProfilePath /.../ProvisioningProfilesDistribution.mobileprovision -configuration release -scheme TestApp`
+`./aziOSBuild.sh -project /.../TestApp.xcodeproj -exportPath /.../FolderIPA -p12Path /.../CertificatsPrive.p12  -p12Password "test" -provisioningProfilePath /.../ProvisioningProfilesDistribution.mobileprovision -configuration release -scheme TestApp -distributionMethod app-store`
 
 Options
 ------------
 
 | Options        | Commentary  | required  |
 | ------------- |:-------------:| -----:|
-| -project      | path to xcodeproj or xcworkspace | Yes |
-| -exportPath      | the generated iPA location    | Yes |
-| -p12Path | path to p12 file      | Yes |
-| -p12Password | password of p12 file      | Yes |
-| -provisioningProfilePath | path to the provisioning profile | Yes |
-| -configuration | project configuration | Yes |
-| -scheme | project scheme | Yes |
+| -project      | Path to xcodeproj or xcworkspace | Yes |
+| -exportPath      | Specifies the destination of the generated IPA    | Yes |
+| -p12Path | Path to p12 file      | Yes |
+| -p12Password | Password of p12 file      | Yes |
+| -provisioningProfilePath | Path to the provisioning profile | Yes |
+| -configuration | Project configuration | Yes |
+| -scheme | Project scheme | Yes |
 | -sdk | Build an Xcode project or workspace against the specified SDK | No |
+| -distributionMethod | Describes how Xcode should export the archive | Yes |
